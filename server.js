@@ -10,6 +10,8 @@ const commentRoute = require('./routes/comment');
 const app = express();
 const port = process.env.PORT || 5000;
 
+const hostname ='0.0.0.0';
+
 app.use(cors());
 
 app.use(express.json());
